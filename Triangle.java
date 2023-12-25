@@ -5,10 +5,10 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-	double a,b,c ;
-	double a = Double.parseDouble(args[0]);
-    double b = Double.parseDouble(args[1]);
-    double c = Double.parseDouble(args[2]);
+        int a, b, c;
+        a = Integer.parseInt(args[0]);
+        b = Integer.parseInt(args[1]);
+        c = Integer.parseInt(args[2]);
     boolean istriangle = ((a + b > c) && (a + c > b )&& (b + c > a ));
     System.out.println("a, b, c :" + istriangle);    
         
